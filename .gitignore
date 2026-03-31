@@ -1,0 +1,9 @@
+workspace/alice/*
+workspace/bob/*
+workspace/preuves/*
+
+!workspace/alice/.gitkeep
+!workspace/bob/.gitkeep
+!workspace/preuves/.gitkeep
+
+**/.gnupg/
