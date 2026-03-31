@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 
+sudo rm -f /etc/apt/sources.list.d/yarn.list || true
 sudo apt-get update
 sudo apt-get install -y gnupg tree nano vim
 
